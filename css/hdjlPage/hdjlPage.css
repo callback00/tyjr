@@ -1,0 +1,49 @@
+.overview-right form {
+    background: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table td {
+    border: 1px solid #C1D6EC;
+    font-size: 12px;
+    padding: 8px;
+
+}
+
+table span {
+    color: #FF2124;
+    display: inline-block;
+}
+
+.overview-right>h3 {
+    height: 42px;
+    font: normal 20px/42px "微软雅黑";
+    color: #18388c;
+    margin-top: 34px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.overview-right>h3>span {
+    display: inline-block;
+    line-height: 40px;
+    border-bottom: 2px solid #18388c;
+}
+
+.btn-form {
+    padding: 5px;
+
+    text-align: center;
+
+}
+.btn-form > button {
+    padding: 5px 40px;
+    background: #E74C3C;
+    color: #fff;
+    border: 0;
+    margin-right: 40px;
+    border-bottom: 2px solid #BD3E31;
+}

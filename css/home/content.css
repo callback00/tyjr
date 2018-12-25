@@ -1,0 +1,717 @@
+/* -------------------------------------------home-letter样式-------------------------------------------------- */
+
+ul.inside {
+    list-style-position: inside;
+    padding: 20px 20px;
+    margin: 0;
+}
+
+ul.inside li {
+    list-style-type: disc;
+    font-size: 16px;
+    color: #d51e16;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.cust-tab-withtitle ul.inside {
+    height: 240px;
+    box-sizing: border-box;
+}
+
+.home-letter {
+    margin-top: 20px;
+}
+
+.home-letter .letter {
+    width: 1200px;
+    margin: 0 auto;
+    background: white;
+    height: 120px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+.home-letter .letter p {
+    text-align: center;
+}
+
+.home-letter .letter .title {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px 0 10px 0;
+}
+
+.home-letter .letter .subtitle {
+    font-size: 16px;
+}
+
+.home-letter .letter .subtitle .sub-letter {
+    padding-right: 10px;
+    position: relative;
+}
+
+.home-letter .letter .subtitle .sub-letter:after {
+    content: '';
+    border: 0.5px solid black;
+    height: 65%;
+    position: absolute;
+    top: 25%;
+    right: 0px;
+}
+
+.home-letter .letter .subtitle .sub-news {
+    padding-left: 10px;
+    position: relative;
+}
+
+/* ------------------------------------------home-letter样式 End------------------------------------------------ */
+
+/* -------------------------------------------页面内容样式-------------------------------------------------- */
+
+/* 第一部分整体样式 */
+
+.home-content {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.first-section {
+    position: relative;
+    height: 360px;
+}
+
+.swiper-container {
+    display: inline-block;
+}
+
+.swiper-container,
+.swiper-slide {
+    width: 580px;
+    height: 360px;
+    margin: 0 !important;
+}
+
+/* .swiper-slide.second {
+    background: red;
+    color: white
+} */
+
+.swiper-slide-desc {
+    position: absolute;
+    z-index: 99;
+    color: white;
+    bottom: 12px;
+    left: 35px;
+    width: 330px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.pagination {
+    /*支持rgba的浏览器*/
+    background: rgba(0, 0, 0, .5);
+    /*IE8支持*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000, endColorstr=#7f000000);
+    position: absolute;
+    left: 0;
+    text-align: right;
+    bottom: 0px;
+    width: 95%;
+    height: 44px;
+    padding-right: 5%;
+    z-index: 1;
+}
+
+.swiper-pagination-switch {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    background: #999;
+    margin: -12px 10px;
+    cursor: pointer;
+}
+
+.swiper-active-switch {
+    background: #fff;
+}
+
+.first-section .text-right {
+    background: white;
+    width: 600px;
+    height: 360px;
+    position: relative;
+    float: right;
+}
+
+.first-section .text-right .cust-tab {
+    width: 100%;
+    top: 0px;
+    height: 100%;
+}
+
+.first-section .text-right .cust-tab .tabBar {
+    border-bottom: 2px solid #fee48a;
+    height: 42px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.first-section .text-right .cust-tab .tabBar .split {
+    position: absolute;
+    right: 0px;
+}
+
+.first-section .text-right .cust-tab .tabBar .split:after {
+    content: '';
+    border: 0.5px solid #cfcfcf;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    height: 40px;
+}
+
+/* 宽度按设计图200px来定义,减掉30的边距 */
+
+.first-section .text-right .cust-tab .tabBar li {
+    width: 170px;
+    text-align: center;
+    height: 100%;
+    line-height: 42px;
+    background: white;
+    color: black;
+    font-size: 20px;
+    float: left;
+    font-weight: normal;
+    padding: 0 15px;
+    list-style-type: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.first-section .text-right .cust-tab .tabBar li.select {
+    background: #fff !important;
+    color: #d51e16 !important;
+    position: relative;
+    font-weight: bolder;
+}
+
+.first-section .text-right .cust-tab .tabBar li.select:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #d51e16;
+    left: 0px;
+    bottom: -2px;
+}
+
+.first-section .text-right .cust-tab .tabBar li.select .bottom-tar {
+    display: inline-block;
+    position: absolute;
+    border-color: #d51e16 #fff #fff #fff;
+    border-style: solid;
+    border-width: 6px 9px 0 9px;
+    height: 0;
+    width: 0;
+    left: 100px;
+    top: 42px;
+}
+
+.first-section .text-right .cust-tab .tabCon {
+    /* padding-top: 10px; */
+    top: 50px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.first-section .text-right .cust-tab .tabCon .more {
+    text-align: center;
+    height: 22px;
+    left: 30px;
+    bottom: 20px;
+    position: absolute;
+    width: 540px;
+    background: #f5f5f5;
+}
+
+.first-section .text-right .cust-tab .tabCon .title {
+    color: black;
+    width: 370px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: hidden;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.first-section .text-right .cust-tab .tabCon .time {
+    color: #a0a0a0;
+    width: 100px;
+    /* display: inline-block; */
+    float: right;
+}
+
+/* ------第一部分整体样式 End -------*/
+
+/* ------second-section样式 End -------*/
+
+.second-section {
+    position: relative;
+    margin-top: 20px
+}
+
+.second-section-logo {
+    height: 120px;
+    background: url('../../public/img/tong1.jpg') center no-repeat #fff;
+}
+
+.second-section-content {
+    margin-top: 20px;
+}
+
+.second-section-content-left {
+    width: 780px;
+    height: 285px;
+    display: inline-block;
+    background: white;
+}
+
+.cust-tab-withtitle .tabBar-title {
+    height: 45px;
+    background: #d51e16;
+    color: white;
+    width: 120px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 45px;
+    vertical-align: top;
+    margin-right: 10px;
+    float: left;
+}
+
+.cust-tab-withtitle .tabBar-withtitle {
+    border-bottom: 1px solid #cfcfcf;
+    font-size: 18px;
+    height: 45px;
+    margin-left: 120px;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 宽度按设计图200px来定义,减掉30的边距 */
+
+.cust-tab-withtitle .tabBar-withtitle li {
+    text-align: center;
+    height: 100%;
+    margin-top: 0px;
+    /* 高度定义为43是为了显示底部边框，line-height设置为45是为了文字对齐 */
+    height: 43px;
+    line-height: 45px;
+    background: white;
+    color: black;
+    float: left;
+    font-weight: normal;
+    padding: 0 10px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.cust-tab-withtitle .tabBar-withtitle li.select {
+    background: #fff !important;
+    color: #d51e16 !important;
+    position: relative;
+    font-weight: bolder;
+}
+
+.cust-tab-withtitle .tabBar-withtitle li.select:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #d51e16;
+    left: 0px;
+    bottom: -2px;
+}
+
+.cust-tab-withtitle .tabCon {
+    top: 50px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.cust-tab-withtitle .tabCon .more {
+    text-align: center;
+    height: 22px;
+    left: 30px;
+    bottom: 20px;
+    position: absolute;
+    width: 540px;
+    background: #f5f5f5;
+}
+
+.cust-tab-withtitle .tabCon .title {
+    color: black;
+    width: 500px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: hidden;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.cust-tab-withtitle .tabCon .time {
+    color: #a0a0a0;
+    width: 100px;
+    float: right;
+}
+
+.cust-tab-withtitle .more,
+.second-section-content-right-title .more,
+.third-section-content-right-title .more {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: #a0a0a0;
+    font-size: 14px;
+}
+
+.cust-tab-withtitle .more .right,
+.second-section-content-right-title .more .right,
+.third-section-content-right-title .more .right {
+    font-size: 12px;
+}
+
+.cust-tab-withtitle .more .left {
+    font-size: 14px;
+    vertical-align: text-bottom
+}
+
+.cust-tab-withtitle .more .right {
+    font-size: 12px
+}
+
+.second-section-content-right {
+    width: 400px;
+    float: right;
+    background: white;
+}
+
+.second-section-content-right-title {
+    position: relative;
+    height: 45px;
+}
+
+.second-section-content-right-title-text {
+    width: 120px;
+    height: 45px;
+    background: #d51e16;
+    font-size: 18px;
+    text-align: center;
+    line-height: 45px;
+    color: white;
+    float: left;
+}
+
+.boder-placeholders {
+    border-bottom: 1px solid #cfcfcf;
+    font-size: 18px;
+    height: 45px;
+    margin-left: 120px;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.second-section-content-right-content .top {
+    position: relative;
+    float: left;
+}
+
+.second-section-content-right-content .top:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #cfcfcf;
+    left: 0px;
+    bottom: -1px;
+}
+
+.second-section-content-right-content .top,
+.second-section-content-right-content .bottom {
+    width: 400px;
+}
+
+.second-section-content-right-content .top div,
+.second-section-content-right-content .bottom div {
+    height: 120px;
+    width: 133px;
+    text-align: center;
+    /* line-height: 60px; */
+    padding-top: 20px;
+    font-size: 18px;
+    position: relative;
+    box-sizing: border-box;
+    float: left;
+}
+
+.second-section-content-right-content .top div:after,
+.second-section-content-right-content .bottom div:after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: #cfcfcf;
+    right: -1px;
+    top: 0px;
+}
+
+.second-section-content-right-content .top .last-item:after,
+.second-section-content-right-content .bottom .last-item:after {
+    height: 0px !important
+}
+
+.second-section-content-right-content .bottom {
+    float: right;
+}
+
+.second-section-content-right-content .top img {
+    height: 40px;
+}
+
+.second-section-content-right-content .right img {
+    height: 42px;
+}
+
+.second-section-content-right-content p {
+    margin: 15px 0 0 0;
+}
+
+/* ------.second-section样式 End -------*/
+
+/* ------.third-section样式      -------*/
+
+.third-section {
+    position: relative;
+    margin-top: 20px
+}
+
+.third-section-logo {
+    height: 120px;
+    background: url('../../public/img/tong1.jpg') center no-repeat #fff;
+}
+
+.third-section-content {
+    margin-top: 20px;
+}
+
+.third-section-content-left {
+    width: 780px;
+    height: 285px;
+    display: inline-block;
+    background: white;
+}
+
+.third-section-content-right {
+    width: 400px;
+    float: right;
+    background: white;
+}
+
+.third-section-content-right-title {
+    position: relative;
+    height: 45px;
+}
+
+.third-section-content-right-title-text {
+    width: 120px;
+    height: 45px;
+    background: #d51e16;
+    font-size: 18px;
+    text-align: center;
+    line-height: 45px;
+    color: white;
+    float: left;
+}
+
+.boder-placeholders {
+    border-bottom: 1px solid #cfcfcf;
+    font-size: 18px;
+    height: 45px;
+    margin-left: 120px;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.third-section-content-right-content .left,
+.third-section-content-right-content .right {
+    display: inline-block;
+    width: 200px;
+}
+
+.third-section-content-right-content .left {
+    position: relative;
+}
+
+.third-section-content-right-content .left:after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: #cfcfcf;
+    right: 0px;
+    top: 0px;
+}
+
+.third-section-content-right-content .left div,
+.third-section-content-right-content .right div {
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 18px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.third-section-content-right-content .left div:after,
+.third-section-content-right-content .right div:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #cfcfcf;
+    left: 0px;
+    bottom: 0px;
+}
+
+.third-section-content-right-content .left .last-item:after,
+.third-section-content-right-content .right .last-item:after {
+    height: 0px !important
+}
+
+.third-section-content-right-content .right {
+    float: right;
+}
+
+.third-section-content-right-content img {
+    vertical-align: -5px;
+    padding-right: 10px;
+}
+
+/* ------.third-section样式 End -------*/
+
+/* ------.fourth-section样式     -------*/
+
+.fourth-section {
+    position: relative;
+    margin-top: 20px
+}
+
+.fourth-section-logo {
+    height: 120px;
+    background: url('../../public/img/tong2.jpg') center no-repeat #fff;
+}
+
+.fourth-section-content {
+    margin-top: 20px;
+}
+
+.fourth-section-content-left {
+    width: 590px;
+    height: 285px;
+    display: inline-block;
+    background: white;
+}
+
+.fourth-section-content-left .cust-tab-withtitle .tabCon .title {
+    width: 320px !important;
+}
+
+.fourth-section-content-right {
+    width: 590px;
+    float: right;
+    background: white;
+}
+
+.fourth-section-content-right-title {
+    position: relative;
+    height: 45px;
+}
+
+.fourth-section-content-right-title-text {
+    width: 120px;
+    height: 45px;
+    background: #d51e16;
+    font-size: 18px;
+    text-align: center;
+    line-height: 45px;
+    color: white;
+    float: left;
+}
+
+.boder-placeholders {
+    border-bottom: 1px solid #cfcfcf;
+    font-size: 18px;
+    height: 45px;
+    margin-left: 120px;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fourth-section-content-right-content {
+    padding: 36px;
+}
+
+.fourth-section-content-right-content .left {
+    display: inline-block;
+    width: 470px;
+}
+
+.fourth-section-content-right-content .right {
+    float: right;
+}
+
+.fourth-section-content-right-content .left .kjrk {
+    width: 470px;
+    height: 48px;
+}
+
+.fourth-section-content-right-content .left .kjrk.first {
+    background: url('../../public/img/kjrk-1.jpg') center no-repeat #fff;
+    margin-bottom: 10px;
+}
+
+.fourth-section-content-right-content .left .kjrk.second {
+    background: url('../../public/img/kjrk-2.jpg') center no-repeat #fff;
+    margin-bottom: 10px;
+}
+
+.fourth-section-content-right-content .left .kjrk.third {
+    background: url('../../public/img/kjrk-3.jpg') center no-repeat #fff;
+}
+
+.fourth-section-content-right-content .right .kjrk-more {
+    background: url('../../public/img/kjrk-more.jpg') center no-repeat #fff;
+    height: 164px;
+    width: 40px;
+}
+
+/* ------.fourth-section样式 End -------*/
+
+/* -------------------------------------------页面内容样式 End -------------------------------------------------- */

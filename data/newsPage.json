@@ -1,0 +1,113 @@
+{
+    "main_news_first": [
+        {
+            "id": 1,
+            "title": "光明网：改革开放40年，这些人我们不能忘记",
+            "publishTime": "2018-12-17",
+            "typedesc": "事实新闻",
+            "url": "../articleList/article1-2-1.html"
+        },
+        {
+            "id": 2,
+            "title": "退役军人保障法草案开始征求中央和地方有关单位意见",
+            "publishTime": "2018-10-16",
+            "typedesc": "事实新闻",
+            "url": "../articleList/article1-2-2.html"
+        },
+        {
+            "id": 3,
+            "title": "多部门联合发文部署——坚持政策优先大力扶持退役军人就业创业",
+            "publishTime": "2018-08-03",
+            "typedesc": "事实新闻",
+            "url": "../articleList/article1-2-3.html"
+        },
+        {
+            "id": 4,
+            "title": "国家再次提高部分退役军人和其他优抚对象抚恤补助标准",
+            "publishTime": "2018-07-27",
+            "typedesc": "事实新闻",
+            "url": "../articleList/article1-2-4.html"
+        },
+        {
+            "id": 5,
+            "title": "解放军报：2018年退役军人安置工作有序推进",
+            "publishTime": "2018-11-28",
+            "typedesc": "事实新闻",
+            "url": "../articleList/article1-2-5.html"
+        },
+        {
+            "id": 3,
+            "title": "多部门联合发文部署——坚持政策优先大力扶持退役军人就业创业",
+            "publishTime": "2018-08-03",
+            "typedesc": "事实新闻",
+            "url": "../articleList/article1-2-3.html"
+        },
+        {
+            "id": 4,
+            "title": "国家再次提高部分退役军人和其他优抚对象抚恤补助标准",
+            "publishTime": "2018-07-27",
+            "typedesc": "事实新闻",
+            "url": "../articleList/article1-2-4.html"
+        },
+        {
+            "id": 5,
+            "title": "解放军报：2018年退役军人安置工作有序推进",
+            "publishTime": "2018-11-28",
+            "typedesc": "事实新闻",
+            "url": "../articleList/article1-2-5.html"
+        }
+    ],
+    "main_news_second": [
+        {
+            "id": 1,
+            "title": "广西壮族自治区退役军人事务厅正式挂牌",
+            "publishTime": "2018-11-22",
+            "typedesc": "全区动态",
+            "url": "../articleList/article1-3-1.html"
+        },
+        {
+            "id": 2,
+            "title": "广西壮族自治区退役军人事务厅致全区退役军人的一封信",
+            "publishTime": "2018-11-20",
+            "typedesc": "全区动态",
+            "url": "../articleList/article1-3-2.html"
+        },
+        {
+            "id": 3,
+            "title": "广西退役军人和其他优抚对象信息采集工作全面提速",
+            "publishTime": "2018-12-06",
+            "typedesc": "全区动态",
+            "url": "../articleList/article1-3-3.html"
+        },
+        {
+            "id": 4,
+            "title": "广西全力推进退役军人和其他优抚对象信息采集工作",
+            "publishTime": "2018-11-29",
+            "typedesc": "全区动态",
+            "url": "../articleList/article1-3-4.html"
+        },
+        {
+            "id": 5,
+            "title": "中越边境广西段深排雷场全部搜排完毕",
+            "publishTime": "2018-10-27",
+            "typedesc": "全区动态",
+            "url": "../articleList/article1-3-5.html"
+        }
+    ],
+    "main_news_third": [
+        {
+            "id": 1,
+            "title": "国务院办公厅关于印发《为烈属、军属和退役军人等家庭悬挂光荣牌工作实施办法》的通知",
+            "publishTime": "2018-12-22",
+            "typedesc": "通知公告",
+            "url": "../articleList/article1-4-4.html"
+        },
+        {
+            "id": 1,
+            "title": "退役军人事务部办公厅关于残疾军人证等证件和有关印章使用管理问题的通知",
+            "publishTime": "2018-11-15",
+            "typedesc": "通知公告",
+            "url": "../articleList/article1-4-5.html"
+        }
+    ]
+}

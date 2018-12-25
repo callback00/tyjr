@@ -1,0 +1,167 @@
+.second-page-content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.breadcrumb {
+    height: 46px;
+    color: #707070;
+    line-height: 46px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.breadcrumb a {
+    color: #707070
+}
+
+.content {
+    position: relative;
+}
+
+.content:after {
+    content: '[DO NOT LEAVE IT IS NOT REAL]';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/* 不要删除该代码 */
+
+/* .second-page-content .content .content-left {
+    display: inline-block;
+    width: 302px;
+    background: white;
+    vertical-align: top;
+} */
+
+.second-page-content .content .content-left {
+    width: 302px;
+    height: 100%;
+    background: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.second-page-content .content .content-left .title {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.second-page-content .content .content-left .title .text {
+    height: 80px;
+    width: 220px;
+    /* margin: 0 auto; */
+    margin: 0 41px;
+    background: url("../public/img/artic-list-title.jpg");
+    color: white;
+    line-height: 80px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.second-page-content .content .content-left li {
+    height: 80px;
+    width: 220px;
+    list-style-type: none;
+    line-height: 80px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #a0a0a0;
+    border-bottom: 1px solid #cfcfcf;
+    cursor: pointer;
+}
+
+.second-page-content .content .content-left li.select {
+    color: #c21813;
+}
+
+/* 不要删除该代码 */
+
+/* .second-page-content .content .content-right {
+    width: 856px;
+    background: white;
+    float: right;
+} */
+
+.second-page-content .content .content-right {
+    width: 856px;
+    min-height: 425px;
+    background: white;
+    height: auto;
+    float: right;
+}
+
+.content-right-wrap {
+    margin: 60px 40px 0 40px;
+}
+
+.content-right .title {
+    border-bottom: 1px solid #a0a0a0;
+    padding-bottom: 5px;
+}
+
+#changeTitle {
+    font-size: 20px;
+    position: relative;
+}
+
+.content-right .title span {
+    color: #c21813;
+}
+
+.content-right .title span:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #c21813;
+    left: 0px;
+    bottom: -7px;
+}
+
+.content-right .news {
+    padding: 5px 0 15px 0;
+}
+
+.content-right .news ul {
+    margin: 15px 0;
+    list-style-position: inside;
+    padding: 0 0 15px 0;
+    border-bottom: 1px dashed #a0a0a0;
+}
+
+.content-right .news ul li {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.cust-nav li:focus {
+    background: green
+}
+
+.content-right .news ul li .title {
+    color: black;
+    width: 580px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: hidden;
+    vertical-align: top;
+    font-size: 16px;
+    border-bottom: none !important;
+    padding-bottom: 0px !important;
+}
+
+.content-right .news ul li .time {
+    width: 100px;
+    /* display: inline-block; */
+    float: right;
+}
