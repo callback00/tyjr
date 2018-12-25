@@ -1,0 +1,62 @@
+/* -------------------------------------------home-foot css样式 -------------------------------------------------- */
+
+.home-foot {
+    border-top: 6px solid #d51e16;
+    margin: 20px 0px;
+}
+
+.home-foot img {
+    vertical-align: middle;
+}
+
+.home-foot-content {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.foot-link {
+    font-size: 18px;
+    padding: 20px 0px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.foot-link span {
+    vertical-align: middle
+}
+
+.foot-link a {
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.foot-contact-us p {
+    font-size: 15px;
+}
+
+.foot-contact-us .first-line {
+    margin: 20px 0 20px 0
+}
+
+.foot-contact-us .second-line {
+    color: #707070;
+    margin: 5px 0 5px 0;
+}
+
+.foot-contact-us .third-line {
+    color: #707070;
+    margin: 5px 0 5px 0;
+}
+
+.foot-contact-us .fourth-line {
+    color: #cfcfcf;
+    margin: 5px 0 5px 0;
+}
+
+.foot-icon {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+/* -------------------------------------------home-foot css样式 End -------------------------------------------------- */

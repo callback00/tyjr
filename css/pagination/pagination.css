@@ -1,0 +1,164 @@
+/* .x-page {
+    font-size: 14px;
+}
+
+.x-page-item {
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 14px;
+    margin-left: 5px;
+    color: #222;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.x-page-active {
+    color: #fff;
+    cursor: default;
+    border-color: #00a1d6;
+    background-color: #00a1d6;
+}
+
+.x-page-total {
+    padding-left: 0;
+    margin-left: 0;
+    border: 0;
+}
+
+.x-page a:hover {
+    color: #fff;
+    background-color: #00a1d6;
+    text-decoration: none;
+}
+
+.x-page-jump {
+    font-size: 12px;
+    float: right;
+    color: #666;
+    line-height: 36px;
+}
+
+.x-page-jump-input {
+    margin: 0 5px;
+    padding: 0 5px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    width: 40px;
+    text-align: center;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.x-page-jump-input:focus {
+    border-color: #00a1d6;
+} */
+
+.pagination {
+    text-align: center;
+    font-family: "Microsoft YaHei";
+}
+
+.pagination-pre,
+.pagination-next {
+    margin: 0;
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 3px;
+    font-style: normal;
+    cursor: default;
+    color: #fff;
+    background-color: #c21813;
+    cursor: pointer;
+}
+
+.pagination-pre.disabled,
+.pagination-next.disabled {
+    cursor: default;
+    color: white;
+    background-color: gray;
+}
+
+/* a和i公用的样式 */
+
+.pagination a,
+i {
+    color: #c21813;
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    width: 35px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 3px;
+    font-style: normal;
+    border: 1px solid #cfcfcf;
+}
+
+.pagination a:hover {
+    /* color: #fff;
+    background: #ee798a;
+    box-shadow: 0 0 7px #ee798a; */
+}
+
+.page.current {
+    cursor: default;
+    color: #fff;
+    background: #ee798a;
+    border: none !important;
+}
+
+.page.ellipsis {
+    cursor: default;
+}
+
+.pagination-desc {
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 10px;
+    font-style: normal;
+    cursor: default;
+    color: #c21813;
+}
+
+.pagination-option {
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 10px;
+    font-style: normal;
+    cursor: default;
+    color: #c21813;
+}
+
+.pagination-option input{
+    height: 60%;
+    width: 25px;
+    margin: 0 1px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border: 1px solid #c21813;
+    outline: none;
+    vertical-align: 2px;
+}
+
+.pagination-option button{
+    margin-left: 10px;
+    color: #c21813;
+    border: 1px solid #c21813;
+    outline: none;
+    cursor: pointer;
+}

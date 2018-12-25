@@ -1,0 +1,7 @@
+/* 原计划是抽离tab的样式，后因时间仓促未能完成，建议将样式剥离 */
+.tabBar span {
+    background-color: #e8e8e8;
+    cursor: pointer;
+    float: left;
+    padding: 0 15px;
+}

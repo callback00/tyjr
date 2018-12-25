@@ -1,0 +1,151 @@
+/* -------------------------------------------------头部css样式-------------------------------------------------- */
+
+.home-head {
+    background: #ededed;
+    color: #a0a0a0;
+}
+
+a {
+    cursor: pointer;
+}
+
+.head-link {
+    height: 40px;
+    width: 1200px;
+    font-size: 13.5px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 10px;
+}
+
+.head-link .option {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    left: 80px;
+}
+
+.head-link .option .first {
+    position: relative;
+    padding-right: 10px
+}
+
+.head-link .option .first:after,
+.middle:after {
+    content: '';
+    border: 0.5px solid #a0a0a0;
+    height: 85%;
+    position: absolute;
+    top: 15%;
+    right: 0px;
+}
+
+.head-link .option .middle {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.head-link .option .last {
+    position: relative;
+    padding-left: 10px;
+    font-stretch: condensed;
+    color: black;
+}
+
+.head-link .last span {
+    color: #a0a0a0
+}
+
+.head-search {
+    width: 250px;
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+    top: 7px;
+}
+
+.head-search input {
+    height: 100%;
+    width: 100%;
+    padding: 4px 11px;
+    box-sizing: border-box;
+    border: 1px solid #d51e16;
+    outline: none;
+    padding-right: 80px;
+    border-radius: 5px 0 0 5px;
+}
+
+.head-search button {
+    height: 100%;
+    width: 80px;
+    right: 0;
+    border: none;
+    background: #d51e16;
+    position: absolute;
+    color: white;
+    top: 0;
+    cursor: pointer;
+}
+
+.head-search button:focus {
+    border-color: #d51e16;
+    outline: none;
+}
+
+.home-head-logo {
+    height: 220px;
+    background: url('../../public/img/banner.jpg') center no-repeat #fff;
+}
+
+.home-nav {
+    background: #d51e16;
+}
+
+.home-nav .nav {
+    height: 46px;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+    line-height: 46px;
+    font-size: 20px;
+}
+
+.home-nav .nav li {
+    float: left;
+
+}
+
+.home-nav .nav span {
+    display: inline-block
+}
+
+.home-nav .nav a {
+    display: block;
+    padding: 0 60px;
+    line-height: 46px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+
+.home-nav .nav a:after {
+    content: '';
+    border: 1px solid white;
+    height: 45%;
+    position: absolute;
+    top: 30%;
+    right: 0px;
+}
+
+.nav-last-item:after {
+    content: '';
+    border: none !important
+}
+
+/* ------------------------------------------头部css样式 End------------------------------------------------ */

@@ -1,0 +1,50 @@
+{
+    "first_tabBar": [
+        {
+            "id": 1,
+            "title": "广西退役士兵复员干部安置工作经验做法",
+            "publishTime": "2018-07-20",
+            "typedesc": "先进典型",
+            "url": "../articleList/article5-1-1.html"
+        },
+        {
+            "id": 2,
+            "title": "全国“最美退役军人”学习宣传活动即将进入公示阶段",
+            "publishTime": "2018-10-17",
+            "typedesc": "先进典型",
+            "url": "../articleList/article5-1-2.html"
+        },
+        {
+            "id": 3,
+            "title": "中共中央宣传部 退役军人事务部关于开展“最美退役军人” 学习宣传活动的通知",
+            "publishTime": "2018-09-17",
+            "typedesc": "先进典型",
+            "url": "../articleList/article5-1-3.html"
+        }
+    ],
+    "second_tabBar": [
+        {
+            "id": 1,
+            "title": "双拥标语集锦",
+            "publishTime": "2018-10-15",
+            "typedesc": "双拥文化",
+            "url": "../articleList/article5-2-1.html"
+        },
+        {
+            "id": 2,
+            "title": "柳州市双拥雕塑",
+            "publishTime": "2018-07-02",
+            "typedesc": "双拥文化",
+            "url": "../articleList/article5-2-2.html"
+        },
+        {
+            "id": 3,
+            "title": "“军人依法优先”军旅MV歌曲悄然走红各大网络平台",
+            "publishTime": "2018-07-30",
+            "typedesc": "双拥文化",
+            "url": "../articleList/article5-2-3.html"
+        }
+    ],
+    "third_tabBar": [
+    ]
+}
