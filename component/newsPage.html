@@ -10,7 +10,39 @@
     <link rel="stylesheet" href="../css/home/base.css">
     <link rel="stylesheet" href="../css/home/head.css">
     <link rel="stylesheet" href="../css/home/foot.css">
-    <link rel="stylesheet" href="../css/newsPage.css">
+    <!-- <link rel="stylesheet" href="../css/newsPage.css"> -->
+
+    <link id="ie_css" rel="stylesheet" href="">
+
+    <script>
+        function getBrowser() {
+            var ua = window.navigator.userAgent;
+            var isIE = window.ActiveXObject != undefined && ua.indexOf("MSIE") != -1;
+            var isFirefox = ua.indexOf("Firefox") != -1;
+            var isOpera = window.opr != undefined;
+            var isChrome = ua.indexOf("Chrome") && window.chrome;
+            var isSafari = ua.indexOf("Safari") != -1 && ua.indexOf("Version") != -1;
+            if (isIE) {
+                return "IE";
+            } else if (isFirefox) {
+                return "Firefox";
+            } else if (isOpera) {
+                return "Opera";
+            } else if (isChrome) {
+                return "Chrome";
+            } else if (isSafari) {
+                return "Safari";
+            } else {
+                return "Unkown";
+            }
+        }
+
+        if (getBrowser() == "IE") {
+            document.getElementById("ie_css").href = "../css/newsPage_ie.css";
+        } else {
+            document.getElementById("ie_css").href = "../css/newsPage.css";
+        }
+    </script>
 </head>
 
 <body>
@@ -65,7 +97,7 @@
                     <li><a href="">专题聚焦</a></li>
                     <li><a href="../component/hdjl.html">互动交流</a></li>
                     <li><a class="nav-last-item" href="">网上办事</a></li>
-                  </ul>
+                </ul>
             </div>
         </div>
 
@@ -223,7 +255,7 @@
                             // 一个页面最多只能显示15条数据
                             if (index < 15) {
                                 str += "<li>"
-                                str += "<a>"
+                                str += "<a href=\"" + record.url + "\">"
                                 str += "<span class=\"title\">"
                                 str += record.title
                                 str += "</span>"
