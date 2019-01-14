@@ -16,8 +16,15 @@
 	background: #FFFFFF;
 	overflow: hidden;
 }
+.article-notice-table{
+	width:1000px;
+	margin:40px auto;
+	padding:20px 40px;
+	font-size:14px;
+	border:1px #333 solid
+	}
 .article-title {
-	width: 1120px;
+	width: 1000px;
 	margin: 40px auto;
 	max-width: 1120px;
 	text-align: center;
@@ -34,6 +41,7 @@
 
 .article-info a{
 	text-decoration:none;
+	color: #999
 }
 
 .article-content {

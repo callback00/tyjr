@@ -142,8 +142,9 @@ a {
     padding: 10px 0;
 }
 
-.cust-nav li:focus {
-    background: green
+.content-right .news ul li span:hover {
+    color: #d51e16 !important;
+
 }
 
 .content-right .news ul li .title {

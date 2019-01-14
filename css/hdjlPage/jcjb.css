@@ -1,0 +1,11 @@
+.jcju-warp {
+    margin-top: 20px;
+}
+
+.jcju-warp .table_name {
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    background: #E74C3C;
+    text-align: center
+}

@@ -24,14 +24,23 @@
 
 <body>
   <script type="text/javascript" src="../js/tool.js"></script>
+  <script type="text/javascript">
+    function gotoNewUrl() {
+      var msg = "您访问的链接即将离开\'广西壮族自治区退役军人事务厅\' \n\n请确认是否离开?";
+      if (confirm(msg) == true) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+  </script>
   <div class="home-page">
     <!-- 头部 -->
     <div class="home-head">
       <div class="head-link"> <span>
           <script>document.write(getChineseData())</script>
         </span> <span class="option"> <span class="first"> <a>设为首页</a> </span> <span class="middle"> <a>收藏本站</a> </span>
-          <span class="middle"> <a>邮件系统</a> </span> <span class="middle"> <a>OA系统</a> </span> <span class="last"> 字体:
-            <span> 简体 </span> </span> </span> <span class="head-search">
+        </span> <span class="head-search">
           <input placeholder="请输入搜索内容">
           <button>搜索</button>
         </span> </div>
@@ -43,9 +52,9 @@
           <li><a href="../index.html">网站首页</a></li>
           <li><a href="../component/newsPage.html">新闻动态</a></li>
           <li><a href="../component/zwgkPage.html">政务公开</a></li>
-          <li><a>专题聚焦</a></li>
+          <li><a href="../component/ztjjPage.html">风采展示</a></li>
           <li><a href="../component/hdjl.html">互动交流</a></li>
-          <li><a class="nav-last-item">网上办事</a></li>
+          <li><a class="nav-last-item" target="_blank" href="http://wsbs.gxzf.gov.cn/" onclick="javascript:return gotoNewUrl()">网上办事</a></li>
         </ul>
       </div>
     </div>
@@ -61,7 +70,14 @@
         >
       </span>
       <span>
-        新闻动态
+        聚焦广西
+      </span>
+      <span>
+        <!-- 请不要看出代码 -->
+        >
+      </span>
+      <span>
+        壮美广西
       </span></div>
     <div class="article-box">
       <h1 class="article-title">龙州红色纪念园景区</h1>
@@ -109,15 +125,59 @@
     <!-- 页面尾部 -->
     <div class="home-foot">
       <div class="home-foot-content">
-        <div class="foot-link"> <span>友情链接:</span> <a> <img src="../public/img/7.jpg"> </a> <a> <img src="../public/img/8.jpg">
-          </a> <a> <img src="../public/img/9.jpg"> </a> <a> <img src="../public/img/10.jpg"> </a> </div>
-        <div class="foot-contact-us">
-          <p> <span> <a>联系我们</a> </span> <span> | </span> <span> <a>网站地图</a> </span> </p>
-          <p> <span> 版权所有：广西壮族自治区退役军人事务厅 桂ICP备xxxxxxxxxxxxx号 桂公网安备xxxxxxxxxxxxx号 </span> </p>
-          <p> <span> 地址：南宁市兴宁区民主路49号 邮政编码 530012 </span> </p>
-          <p> <span> 建议使用IE9以上版本、360、Chrome浏览器打开 </span> </p>
+        <div class="foot-link">
+          <span>友情链接:</span>
+          <a href="http://www.mva.gov.cn/" target="_blank">
+            <img src="../public/img/7.jpg">
+          </a>
+          <a href="http://www.gxzf.gov.cn/" target="_blank">
+            <img src="../public/img/8.jpg">
+          </a>
+          <a href="http://sy.mca.gov.cn/" target="_blank">
+            <img src="../public/img/9.jpg">
+          </a>
+          <a href="http://www.chinamartyrs.gov.cn/" target="_blank">
+            <img src="../public/img/10.jpg">
+          </a>
+          <a href="http://www.gxmzt.gov.cn/" target="_blank">
+            <img src="../public/img/11.jpg">
+          </a>
         </div>
-        <div class="foot-icon"> <img src="../public/img/red.png"> <img src="../public/img/jiucuo.png"> </div>
+        <div class="foot-contact-us">
+          <p class="first-line">
+            <span>
+              <a>联系我们</a>
+            </span>
+            <span>
+              |
+            </span>
+            <span>
+              <a>网站地图</a>
+            </span>
+          </p>
+
+          <p class="second-line">
+            <span>
+              版权所有：广西壮族自治区退役军人事务厅 桂ICP备xx号 桂公网安备xx号 网站标识码：xx
+            </span>
+          </p>
+
+          <p class="third-line">
+            <span>
+              地址：南宁市兴宁区民主路49号 邮政编码 530012
+            </span>
+          </p>
+          <p class="fourth-line">
+            <span>
+              建议使用IE9以上版本、360、Chrome浏览器打开
+            </span>
+          </p>
+        </div>
+
+        <div class="foot-icon">
+          <img src="../public/img/red.png">
+          <img src="../public/img/jiucuo.png">
+        </div>
       </div>
     </div>
   </div>

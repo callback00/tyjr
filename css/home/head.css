@@ -7,6 +7,7 @@
 
 a {
     cursor: pointer;
+    text-decoration: none;
 }
 
 .head-link {
@@ -24,7 +25,7 @@ a {
     display: inline-block;
     width: 50%;
     text-align: right;
-    left: 80px;
+    left: 204px;
 }
 
 .head-link .option .first {
@@ -118,6 +119,11 @@ a {
 
 .home-nav .nav li {
     float: left;
+
+}
+
+.home-nav .nav li:hover {
+    background: #ff3d33;
 
 }
 

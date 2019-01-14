@@ -4,7 +4,7 @@
 <html>
 
 <head>
-    <title>广西壮族自治区退役军人事务所</title>
+    <title>广西壮族自治区退役军人事务厅</title>
     <meta charset="utf-8">
     <!-- 不使用该语句会导致ie浏览器样式无法使用部分正常的css样式 -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,43 +15,23 @@
     <link rel="stylesheet" href="../css/home/foot.css">
     <link rel="stylesheet" href="../css/newsPage.css">
     <link rel="stylesheet" href="../css/hdjlPage/hdjlPage.css">
-
-    <!-- <link id="ie_css" rel="stylesheet" href=""> -->
-
-    <!-- <script>
-        function getBrowser() {
-            var ua = window.navigator.userAgent;
-            var isIE = window.ActiveXObject != undefined && ua.indexOf("MSIE") != -1;
-            var isFirefox = ua.indexOf("Firefox") != -1;
-            var isOpera = window.opr != undefined;
-            var isChrome = ua.indexOf("Chrome") && window.chrome;
-            var isSafari = ua.indexOf("Safari") != -1 && ua.indexOf("Version") != -1;
-            if (isIE) {
-                return "IE";
-            } else if (isFirefox) {
-                return "Firefox";
-            } else if (isOpera) {
-                return "Opera";
-            } else if (isChrome) {
-                return "Chrome";
-            } else if (isSafari) {
-                return "Safari";
-            } else {
-                return "Unkown";
-            }
-        }
-
-        if (getBrowser() == "IE") {
-            document.getElementById("ie_css").href = "../css/newsPage_ie.css";
-        } else {
-            document.getElementById("ie_css").href = "../css/newsPage.css";
-        }
-    </script> -->
+    <link rel="stylesheet" href="../css/hdjlPage/yjzj.css">
+    <link rel="stylesheet" href="../css/hdjlPage/jcjb.css">
 </head>
 
 <body>
     <script type="text/javascript" src="../js/zwgkPage.js"></script>
     <script type="text/javascript" src="../js/tool.js"></script>
+    <script type="text/javascript">
+        function gotoNewUrl() {
+            var msg = "您访问的链接即将离开\'广西壮族自治区退役军人事务厅\' \n\n请确认是否离开?";
+            if (confirm(msg) == true) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    </script>
 
     <div class="home-page">
         <!-- 头部 -->
@@ -68,20 +48,7 @@
 
                         <a>收藏本站</a>
                     </span>
-                    <span class="middle">
 
-                        <a>邮件系统</a>
-                    </span>
-                    <span class="middle">
-                        <a>OA系统</a>
-                    </span>
-
-                    <span class="last">
-                        字体:
-                        <span>
-                            简体
-                        </span>
-                    </span>
                 </span>
 
                 <span class="head-search">
@@ -98,9 +65,9 @@
                     <li><a href="../index.html">网站首页</a></li>
                     <li><a href="../component/newsPage.html">新闻动态</a></li>
                     <li><a href="../component/zwgkPage.html">政务公开</a></li>
-                    <li><a>专题聚焦</a></li>
+                    <li><a href="../component/ztjjPage.html">风采展示</a></li>
                     <li><a href="../component/hdjl.html">互动交流</a></li>
-                    <li><a class="nav-last-item">网上办事</a></li>
+                    <li><a class="nav-last-item" target="_blank" href="http://wsbs.gxzf.gov.cn/" onclick="javascript:return gotoNewUrl()">网上办事</a></li>
                 </ul>
             </div>
         </div>
@@ -133,6 +100,21 @@
                         <li>
                             厅长信箱 >
                         </li>
+                        <li>
+                            网上信访 >
+                        </li>
+                        <li>
+                            回应关切 >
+                        </li>
+                        <li>
+                            意见征集 >
+                        </li>
+                        <li>
+                            纪检监察举报 >
+                        </li>
+                        <li>
+                            官方微信 >
+                        </li>
                     </ul>
                 </div>
                 <div id="content-right" class="content-right">
@@ -159,21 +141,24 @@
             <div class="home-foot-content">
                 <div class="foot-link">
                     <span>友情链接:</span>
-                    <a>
+                    <a href="http://www.mva.gov.cn/" target="_blank">
                         <img src="../public/img/7.jpg">
                     </a>
-                    <a>
+                    <a href="http://www.gxzf.gov.cn/" target="_blank">
                         <img src="../public/img/8.jpg">
                     </a>
-                    <a>
+                    <a href="http://sy.mca.gov.cn/" target="_blank">
                         <img src="../public/img/9.jpg">
                     </a>
-                    <a>
+                    <a href="http://www.chinamartyrs.gov.cn/" target="_blank">
                         <img src="../public/img/10.jpg">
+                    </a>
+                    <a href="http://www.gxmzt.gov.cn/" target="_blank">
+                        <img src="../public/img/11.jpg">
                     </a>
                 </div>
                 <div class="foot-contact-us">
-                    <p>
+                    <p class="first-line">
                         <span>
                             <a>联系我们</a>
                         </span>
@@ -185,18 +170,18 @@
                         </span>
                     </p>
 
-                    <p>
+                    <p class="second-line">
                         <span>
-                            版权所有：广西壮族自治区退役军人事务厅 桂ICP备xxxxxxxxxxxxx号 桂公网安备xxxxxxxxxxxxx号
+                            版权所有：广西壮族自治区退役军人事务厅 桂ICP备xx号 桂公网安备xx号 网站标识码：xx
                         </span>
                     </p>
 
-                    <p>
+                    <p class="third-line">
                         <span>
                             地址：南宁市兴宁区民主路49号 邮政编码 530012
                         </span>
                     </p>
-                    <p>
+                    <p class="fourth-line">
                         <span>
                             建议使用IE9以上版本、360、Chrome浏览器打开
                         </span>
@@ -220,6 +205,82 @@
         // 静态数据代码，动态数据请根据自身需求修改
         function navOnChange(item) {
             //请自行添加动态代码
+
+            var subTitle = ""
+            if (item.activeIndex == 0) {
+                subTitle = "厅长信箱"
+                $("#news").load('./hdjl_part/tzxx.html');
+            } else if (item.activeIndex == 1) {
+                subTitle = "网上信访"
+                $("#news").load('./hdjl_part/wsxf.html');
+            } else if (item.activeIndex == 2) {
+                subTitle = "回应关切"
+                $.ajax({
+                    type: "GET",
+                    url: "http://192.168.0.108:8003/data/hdjl_gqhy.json",
+                    dataType: "json",
+                    success: function (data) {
+
+                        if (data.news_hygq) {
+                            var str = "";
+                            $.each(data.news_hygq, function (index, record) {
+                                // 如果你有足够的时间，可以在服务器安装bable，然后使用es6的语法写下面的代码拼接即可
+
+                                if (index == 0) {
+                                    str += "<ul>"
+                                }
+
+                                // 一个页面最多只能显示15条数据
+                                if (index < 15) {
+                                    str += "<li>"
+                                    str += "<a href=\"" + record.url + "\">"
+                                    str += "<span class=\"title\">"
+                                    str += record.title
+                                    str += "</span>"
+                                    str += "</a>"
+                                    str += "<span class=\"time\">"
+                                    str += record.publishTime
+                                    str += "</span>"
+                                    str += "</li>"
+
+                                    if ((index + 1) % 5 == 0) {
+                                        str += "</ul>"
+                                        // 另起一个ul
+                                        if (index + 1 != data.news_hygq.length && index + 1 < 15) {
+                                            str += "<ul>"
+                                        }
+                                    }
+
+                                    if (index + 1 == data.news_hygq.length) {
+                                        if ((index + 1) % 5 != 0) {
+                                            str += "</ul>"
+                                        }
+                                    }
+                                }
+                            })
+
+                            // 防止页面高度发生变化时跳动bug
+                            setTimeout(function () {
+                                $("#news").html(str);
+                            }, 100)
+                        }
+                    },
+                    error: function (error) {
+                    }
+                });
+
+            } else if (item.activeIndex == 3) {
+                subTitle = "意见征集"
+                $("#news").load('./hdjl_part/yjzj.html');
+            } else if (item.activeIndex == 4) {
+                subTitle = "纪检监察举报"
+                $("#news").load('./hdjl_part/jcjb.html');
+            } else {
+                $("#news").html("<p>我厅尚处在组建阶段，本网站部分内容和功能正在建设中，敬请期待！</p>");
+            }
+
+            $("#changeTitle").html(subTitle)
+
         }
 
         // tab组件初始化
@@ -229,7 +290,7 @@
             onChange: navOnChange
         });
 
-        $("#news").load('./tzxx.html');
+        $("#news").load('./hdjl_part/tzxx.html');
 
     </script>
 </body>

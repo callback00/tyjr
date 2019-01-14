@@ -24,3 +24,13 @@ function getChineseData() {
 
     return str
 }
+
+// 跳转页面
+function gotoNewUrl() {
+    var msg = "您访问的链接即将离开\'广西壮族自治区退役军人事务厅\' \n\n请确认是否离开?";
+    if (confirm(msg) == true) {
+        return true;
+    } else {
+        return false;
+    }
+}

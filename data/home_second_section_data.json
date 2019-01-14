@@ -2,17 +2,17 @@
     "first_tabBar": [
         {
             "id": 1,
+            "title": "国务院：为烈属、军属和退役军人等家庭悬挂光荣牌工作实施办法",
+            "publishTime": "2018-07-31",
+            "typedesc": "时事新闻",
+            "url": "../articleList/article2-3-5.html"
+        },
+        {
+            "id": 2,
             "title": "中华人民共和国英雄烈士保护法",
             "publishTime": "2018-04-27",
             "typedesc": "政策法规",
             "url": "../articleList/article2-3-1.html"
-        },
-        {
-            "id": 2,
-            "title": "国务院：烈士褒扬条例",
-            "publishTime": "2011-07-28",
-            "typedesc": "政策法规",
-            "url": "../articleList/article2-3-2.html"
         },
         {
             "id": 3,
@@ -30,26 +30,26 @@
         },
         {
             "id": 5,
-            "title": "国务院：为烈属、军属和退役军人等家庭悬挂光荣牌工作实施办法",
-            "publishTime": "2018-07-31",
-            "typedesc": "事实新闻",
-            "url": "../articleList/article2-3-5.html"
+            "title": "国务院：烈士褒扬条例",
+            "publishTime": "2011-07-28",
+            "typedesc": "政策法规",
+            "url": "../articleList/article2-3-2.html"
         }
     ],
     "second_tabBar": [
         {
             "id": 1,
-            "title": "退役军人事务部《关于进一步加强由政府安排工作退役士兵就业安置工作的意见》解读",
-            "publishTime": "2018-08-01",
-            "typedesc": "政策解读",
-            "url": "../articleList/article2-4-1.html"
-        },
-        {
-            "id": 2,
             "title": "退役军人事务部有关负责人就央企接收安置退役士兵答记者问",
             "publishTime": "2018-09-14",
             "typedesc": "政策解读",
             "url": "../articleList/article2-4-2.html"
+        },
+        {
+            "id": 2,
+            "title": "退役军人事务部《关于进一步加强由政府安排工作退役士兵就业安置工作的意见》解读",
+            "publishTime": "2018-08-01",
+            "typedesc": "政策解读",
+            "url": "../articleList/article2-4-1.html"
         },
         {
             "id": 3,

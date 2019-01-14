@@ -1,0 +1,191 @@
+<!-- 纪检监察举报 -->
+
+<div class="jcju-warp">
+    <form action="">
+        <!-- 表单 -->
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+            <tbody>
+                <tr>
+                    <td colspan="4" valign="center" class="table_name">举报人信息（注意:标有 * 的必须填写）</td>
+                </tr>
+                <!-- 第一行 -->
+                <tr>
+                    <td width="15%" id="jubao_name_label" height="20" align="right"><label class="control-label col-md-6 col-sm-6 col-xs-12">姓名</label></td>
+                    <td width="35%" id="jubao_name_input"><input type="text" value="" id="jubao_name" name="jubao_name"
+                            placeholder="请输入姓名"> </td>
+
+                    <td width="15%" id="j_id_card_label" align="right" style="padding-right:10px;"><label class="control-label col-md-6 col-sm-6 col-xs-12">身份证号</label></td>
+                    <td width="35%" id="j_id_card_input"><input type="text" value="" id="j_id_card" name="j_id_card"
+                            placeholder="请输入身份证号"> </td>
+                </tr>
+                <!-- 第一行 -->
+                <!-- 第二行 -->
+                <tr>
+                    <td width="15%" id="jubao_tel_label" align="right"><label class="control-label col-md-6 col-sm-6 col-xs-12">联系电话</label></td>
+                    <td width="35%" id="jubao_tel_input"><input type="text" value="" id="jubao_tel" name="jubao_tel"
+                            placeholder="请输入联系电话"> </td>
+                    <td width="15%" id="jubao_email_label" align="right" style="padding-right:10px;"><label class="control-label col-md-6 col-sm-6 col-xs-12">电子邮箱</label></td>
+                    <td width="35%" id="jubao_email_input"><input type="text" value="" id="jubao_email" name="jubao_email"
+                            placeholder="请输入电子邮箱"> </td>
+
+                </tr>
+
+                <tr>
+                    <td width="15%" id="j_zhengzhi_mianmao_label" align="right"><label class="control-label col-md-6 col-sm-6 col-xs-12">政治面貌</label></td>
+
+                    <td width="35%" id="j_zhengzhi_mianmao_input"><select class="form-control" id="j_zhengzhi_mianmao"
+                            name="j_zhengzhi_mianmao">
+                            <option value="0" selected="">不详</option>
+                            <option value="1">中共党员</option>
+                            <option value="2">共青团员</option>
+                            <option value="3">民主党派</option>
+                            <option value="4">群众</option>
+                        </select></td>
+                    <td width="15%" id="j_zhiji_label" align="right" style="padding-right:10px;"><label class="control-label col-md-6 col-sm-6 col-xs-12">举报人职级</label></td>
+                    <td width="35%" id="j_zhiji_input"><input type="text" value="" id="j_zhiji" name="j_zhiji"
+                            placeholder="请输入职级"> </td>
+
+                </tr>
+
+                <tr>
+                    <td width="15%" id="link_address_label" align="right"><label class="control-label col-md-6 col-sm-6 col-xs-12">现居住地址</label></td>
+                    <td width="480" colspan="3" id="link_address_input"><input type="text" value="" id="link_address"
+                            name="link_address" placeholder="请输入联系地址" size="84"> </td>
+
+                </tr>
+                <!-- 第二行 -->
+                <tr>
+                    <td colspan="4" valign="center" class="table_name">被举报人（单位）信息（注意:标有 * 的必须填写）</td>
+                </tr>
+                <!-- 第三行 -->
+                <tr>
+                    <td width="15%" align="right">
+                        <span style="color: red">*</span>
+                        <aaaa id="b_name_label"><label class="control-label col-md-6 col-sm-6 col-xs-12">被举报人</label></aaaa>
+                    </td>
+                    <td width="35%" id="b_name_input"><input type="text" value="" id="b_name" name="b_name" placeholder="请输入被举报人姓名">
+                    </td>
+                    <td width="15%" id="b_org_label" align="right" style="padding-right:10px;"><label class="control-label col-md-6 col-sm-6 col-xs-12">被举报人部门</label></td>
+                    <td width="35%" id="b_org_input"><select class="form-control" id="b_org" name="b_org">
+                            <option value="1" selected="">办公厅</option>
+                            <option value="12">政策法规司</option>
+                            <option value="2">思想政治和权益维护司</option>
+                            <option value="3">规划财务司</option>
+                            <option value="4">移交安置司</option>
+                            <option value="5">就业创业司</option>
+                            <option value="6">军休服务管理司</option>
+                            <option value="7">拥军优抚司</option>
+                            <option value="8">褒扬纪念司（国际合作司）</option>
+                            <option value="9">机关党委（人事司）</option>
+                            <option value="11">退役军人培训中心</option>
+                        </select></td>
+
+                </tr>
+                <tr>
+                    <td width="15%" align="right">
+                        <span style="color: red">*</span>
+                        <aaaa id="b_zhiwu_label"><label class="control-label col-md-6 col-sm-6 col-xs-12">被举报人职务</label></aaaa>
+                    </td>
+                    <td width="35%" id="b_zhiwu_input"><input type="text" value="" id="b_zhiwu" name="b_zhiwu"
+                            placeholder="请输入被举报人职务"> </td>
+                    <td width="15%" align="right" style="padding-right:10px;">
+                        <span style="color: red">*</span>
+                        <aaaa id="b_jubao_zhiji_label"><label class="control-label col-md-6 col-sm-6 col-xs-12">被举报人职级</label></aaaa>
+                    </td>
+                    <td width="35%" id="b_jubao_zhiji_input"><select class="form-control" id="b_jubao_zhiji" name="b_jubao_zhiji">
+                            <option value="1" selected="">正厅局级</option>
+                            <option value="2">副厅局级</option>
+                            <option value="3">正处级</option>
+                            <option value="4">副处级</option>
+                            <option value="5">正科级</option>
+                            <option value="6">副科级</option>
+                            <option value="7">一般干部</option>
+                            <option value="8">事业</option>
+                            <option value="9">其他</option>
+                        </select></td>
+
+                </tr>
+                <!-- 第三行 -->
+                <tr>
+                    <td colspan="4" valign="center" class="table_name">举报正文（注意:标有 * 的必须填写）</td>
+                </tr>
+                <!-- 第四行 -->
+                <tr>
+                    <td width="15%" align="right" style="padding-right:10px;">
+                        <span style="color: red">*</span>
+                        <aaaa id="jubao_title_label"><label class="control-label col-md-6 col-sm-6 col-xs-12">标题</label></aaaa>
+                    </td>
+                    <td id="jubao_title_input" colspan="3"><input type="text" value="" id="jubao_title" name="jubao_title"
+                            placeholder="不超过50字" size="84"> </td>
+                </tr>
+                <!-- 第四行 -->
+                <tr>
+                    <td width="15%" align="right">
+                        <span style="color: red">*</span>
+                        <aaaa id="wenti_type_label"><label class="control-label col-md-6 col-sm-6 col-xs-12">问题类别</label></aaaa>
+                    </td>
+                    <td id="wenti_type_input" colspan="3"><select class="form-control" id="wenti_type" name="wenti_type"
+                            style="width: 620px;">
+                            <option value="">==请选择==</option>
+                            <option value="违反政治纪律行为">违反政治纪律行为</option>
+                            <option value="违反组织纪律行为">违反组织纪律行为</option>
+                            <option value="违反廉洁纪律行为" "="">违反廉洁纪律行为</option><option value=" 违反群众纪律行为">违反群众纪律行为</option>
+                            <option value="违反工作纪律行为">违反工作纪律行为</option>
+                            <option value="违反生活纪律行为">违反生活纪律行为</option>
+                            <option value="贪污贿赂行为">贪污贿赂行为</option>
+                            <option value="滥用职权类行为">滥用职权类行为</option>
+                            <option value="玩忽职守类行为">玩忽职守类行为</option>
+                            <option value="徇私舞弊类行为">徇私舞弊类行为</option>
+                            <option value="重大责任事故类行为">重大责任事故类行为</option>
+                            <option value="行使公权力过程中发生的其他违法犯罪行为">行使公权力过程中发生的其他违法犯罪行为</option>
+                            <option value="其他违法犯罪行为">其他违法犯罪行为</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td width="15%" align="right" style="padding-right:10px;">
+                        <span style="color: red">*</span>
+                        <aaaa id="wenti_xilei_label"><label class="control-label col-md-6 col-sm-6 col-xs-12">问题细类</label></aaaa>
+                    </td>
+                    <td id="wenti_xilei_input" colspan="3"><select class="form-control" id="wenti_xilei" name="wenti_xilei"
+                            style="width: 620px;"></select></td>
+
+                </tr>
+                <!-- 第五行 -->
+                <tr>
+                    <td width="15%" align="right" style=" vertical-align: top;">
+                        <span style="color: red">*</span>
+                        <aaaa id="jubao_body_label"><label>内容</label></aaaa>
+                    </td>
+                    <td colspan="3" id="jubao_body_input" width="900"><textarea cols="75" id="jubao_body" name="jubao_body"
+                            rows="10" placeholder="不超过1000字"></textarea></td>
+                </tr>
+
+                <!-- 第五行 -->
+                <!-- 第六行 -->
+                <tr>
+                    <td width="15%" align="right">
+                        <span style="color: red">*</span>
+                        <aaaa id="yanzhengma_label"><label class="control-label col-md-6 col-sm-6 col-xs-12">验证码</label></aaaa>
+                    </td>
+                    <td colspan="3">
+                        <aaaa id="yanzhengma_input"><input type="text" value="" id="yanzhengma" name="yanzhengma"
+                                placeholder="请输入验证码"> </aaaa>
+                        <img src="/yzm/captcha-image" id="yzmimg" width="80" height="30" style="vertical-align: middle;"
+                            alt="">
+
+                        <a href="javascript:updateYZM();" style="color:#4643FF;"> 看不清，换一张</a>
+                    </td>
+                </tr>
+                <!-- 第六行 -->
+
+            </tbody>
+        </table>
+        <!-- 表单 -->
+        <div class="btn-form">
+            <button type="button" onclick="volimazhi();">确定</button>
+        </div>
+
+    </form>
+
+</div>

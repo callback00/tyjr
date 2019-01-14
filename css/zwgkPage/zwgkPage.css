@@ -1,3 +1,8 @@
 .second-page-content .content .content-right {
-    min-height: 500px !important
+    min-height: 650px !important
+}
+.news p{
+    top: 200px;
+    position: relative;
+    text-align: center;
 }

@@ -1,0 +1,38 @@
+.yjzj-form-row {
+    padding: 5px;
+}
+
+.yjzj .lable-desc {
+    vertical-align: top;
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+.yjzj .lable-desc span {
+    color: #E74C3C
+}
+
+.yjzj .yjzj-input {
+    width: 200px;
+    background: #eeeeee;
+    border: solid 1px #dbdbdb;
+    height: 26px;
+    padding: 0 4px;
+}
+
+.yjzj .yjzj-textarea {
+    width: 580px;
+    background: #eeeeee;
+    border: solid 1px #dbdbdb;
+    height: 120px;
+}
+
+.yjzj-option button {
+    padding: 5px 40px;
+    background: #E74C3C;
+    color: #fff;
+    border: 0;
+    margin-left: 110px;
+    border-bottom: 2px solid #BD3E31;
+}

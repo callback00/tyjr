@@ -2,7 +2,8 @@
 
 .home-foot {
     border-top: 6px solid #d51e16;
-    margin: 20px 0px;
+    margin-top: 40px;
+    background: #fff
 }
 
 .home-foot img {
@@ -28,6 +29,10 @@
 .foot-link a {
     padding-left: 20px;
     display: inline-block;
+}
+
+.foot-link a img{
+    width: 198px
 }
 
 .foot-contact-us p {

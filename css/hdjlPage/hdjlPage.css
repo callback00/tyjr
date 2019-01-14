@@ -1,3 +1,13 @@
+
+.second-page-content .content .content-right {
+    min-height: 650px !important
+}
+.news p{
+    top: 200px;
+    position: relative;
+    text-align: center;
+}
+
 .overview-right form {
     background: #fff;
 }

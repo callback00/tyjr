@@ -14,6 +14,10 @@ ul.inside li {
     cursor: pointer;
 }
 
+ul.inside li span:hover {
+    color: #d51e16 !important;
+}
+
 .cust-tab-withtitle ul.inside {
     height: 240px;
     box-sizing: border-box;
@@ -136,7 +140,7 @@ ul.inside li {
 }
 
 .swiper-active-switch {
-    background: #fff;
+    background: #d51e16;
 }
 
 .first-section .text-right {
@@ -218,7 +222,7 @@ ul.inside li {
     border-width: 6px 9px 0 9px;
     height: 0;
     width: 0;
-    left: 100px;
+    left: 90px;
     top: 42px;
 }
 
@@ -269,7 +273,7 @@ ul.inside li {
 
 .second-section-logo {
     height: 120px;
-    background: url('../../public/img/tong1.jpg') center no-repeat #fff;
+    background: url('../../public/img/tong3.jpg') center no-repeat #fff;
 }
 
 .second-section-content {
@@ -434,6 +438,10 @@ ul.inside li {
     box-sizing: border-box;
 }
 
+.second-section-content-right-content a {
+    color: #333
+}
+
 .second-section-content-right-content .top {
     position: relative;
     float: left;
@@ -567,6 +575,12 @@ ul.inside li {
     position: relative;
 }
 
+.third-section-content-right-content .left a {
+    color: #333;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .third-section-content-right-content .left:after {
     content: '';
     position: absolute;
@@ -605,6 +619,13 @@ ul.inside li {
 
 .third-section-content-right-content .right {
     float: right;
+}
+
+.third-section-content-right-content .right a {
+    /* cursor: default; */
+    color: #333;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .third-section-content-right-content img {
